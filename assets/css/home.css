@@ -204,6 +204,11 @@ a:focus-visible {
   stroke-width: 1.6;
 }
 
+.profile-links .brand-icon {
+  fill: currentColor;
+  stroke: none;
+}
+
 .content {
   min-width: 0;
 }
@@ -350,6 +355,14 @@ a:focus-visible {
 .research {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.blog {
+  padding-top: 3rem;
+}
+
+.blog-list:empty {
+  display: none;
 }
 
 .publication-list {
@@ -592,7 +605,8 @@ a:focus-visible {
 
   .section-grid > .section:first-child,
   .section-grid > .section + .section,
-  .research {
+  .research,
+  .blog {
     padding-top: 2.25rem;
   }
 
