@@ -382,6 +382,10 @@ a:focus-visible {
   padding-top: 0.15rem;
 }
 
+.publication--text {
+  grid-template-columns: minmax(0, 1fr);
+}
+
 .publication:last-child {
   padding-bottom: 0;
   border-bottom: 0;
