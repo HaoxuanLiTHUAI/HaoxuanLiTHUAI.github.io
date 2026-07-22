@@ -173,6 +173,27 @@ a:focus-visible {
   font-weight: 600;
 }
 
+.profile-link-pair {
+  display: flex;
+  align-items: center;
+  gap: 0.38rem;
+  width: fit-content;
+  color: var(--body);
+  font-size: 0.79rem;
+  font-weight: 600;
+}
+
+.profile-link-pair a {
+  display: inline;
+  color: var(--body);
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.profile-link-pair span {
+  color: var(--muted);
+}
+
 .profile-links svg {
   width: 17px;
   height: 17px;
@@ -316,6 +337,14 @@ a:focus-visible {
   left: 0;
   color: #93a1b2;
   content: "\2014";
+}
+
+.education-summary {
+  max-width: 800px;
+  margin: 0;
+  color: #46556a;
+  font-size: 0.93rem;
+  line-height: 1.72;
 }
 
 .research {
